@@ -1,0 +1,25 @@
+# Node
+node_modules/
+**/node_modules/
+**/package-lock.json
+
+# Environment variables
+.env
+**/.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Build output
+build/
+dist/
+frontend/build/
+
+# VSCode
+.vscode/
