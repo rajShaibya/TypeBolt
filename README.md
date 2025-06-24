@@ -47,22 +47,30 @@
 
 ```bash
 git clone https://github.com/your-username/typebolt.git
-cd typebolt
+cd typebolt 
+```
 
 ### ⚙️ Backend Setup
 
 ```bash
 cd backend
 npm install
+npm run dev
+```
+### Setup /backend/.env
 
+```bash
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 PORT=5000
+``` 
+### ⚙️ Frontend Setup
 
+```bash
+cd ../frontend
+npm install
 npm start
-
-
-
+```
 ---
 
 ### 📁 File Structure (Markdown snippet)
@@ -83,10 +91,5 @@ typebolt/
 │ ├── pages/ # Login, Signup, Dashboard, Test
 │ └── App.js # Main app logic
 └── .env # Frontend API URL
-
-cd ../frontend
-npm install
-
-npm install
-npm start
+```
 
