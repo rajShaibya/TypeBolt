@@ -73,9 +73,7 @@ npm start
 ```
 ---
 
-## 📁 File Structure (Markdown snippet)
-
-### 📁 Project Structure
+## 📁 File Structure
 ```markdown
 typebolt/
 ├── backend/
