@@ -73,10 +73,10 @@ npm start
 ```
 ---
 
-### 📁 File Structure (Markdown snippet)
+## 📁 File Structure (Markdown snippet)
 
+### 📁 Project Structure
 ```markdown
-## 📁 Project Structure
 typebolt/
 ├── backend/
 │ ├── models/ # Mongoose schemas for User and Typing data
